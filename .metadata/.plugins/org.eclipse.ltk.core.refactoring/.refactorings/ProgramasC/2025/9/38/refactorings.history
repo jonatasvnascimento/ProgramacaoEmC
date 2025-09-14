@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;teste.c&apos; to &apos;ProgramasC&apos;" description="Move &apos;teste.c&apos; to &apos;ProgramasC&apos;" destination="/ProgramasC" element1="/ProgramasCFonte/teste.c" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1757881888402" updateReferences="true"/>
+</session>

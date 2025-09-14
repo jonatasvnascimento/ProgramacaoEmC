@@ -1,0 +1,87 @@
+15:59:18 **** Build of configuration Debug for project ProgramasC ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/Jonatas/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412/jre/bin/server;C:/Users/Jonatas/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412/jre/bin;C:\Python312\Scripts\;C:\Python312\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Jonatas\AppData\Local\Microsoft\WindowsApps;C:\Users\Jonatas\.dotnet\tools;C:\Users\Jonatas\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\Jonatas\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Jonatas\AppData\Roaming\npm;C:\Users\Jonatas\.dotnet\tools;C:\Users\Jonatas\AppData\Local\Microsoft\WindowsApps;;C:\WINDOWS\system32]
+16:05:25 **** Clean-only build of configuration Debug for project ProgramasC ****
+make clean 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/Jonatas/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412/jre/bin/server;C:/Users/Jonatas/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412/jre/bin;C:\Python312\Scripts\;C:\Python312\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Jonatas\AppData\Local\Microsoft\WindowsApps;C:\Users\Jonatas\.dotnet\tools;C:\Users\Jonatas\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\Jonatas\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Jonatas\AppData\Roaming\npm;C:\Users\Jonatas\.dotnet\tools;C:\Users\Jonatas\AppData\Local\Microsoft\WindowsApps;;C:\WINDOWS\system32]
+16:05:25 **** Build of configuration Debug for project ProgramasC ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/Jonatas/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412/jre/bin/server;C:/Users/Jonatas/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412/jre/bin;C:\Python312\Scripts\;C:\Python312\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Jonatas\AppData\Local\Microsoft\WindowsApps;C:\Users\Jonatas\.dotnet\tools;C:\Users\Jonatas\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\Jonatas\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Jonatas\AppData\Roaming\npm;C:\Users\Jonatas\.dotnet\tools;C:\Users\Jonatas\AppData\Local\Microsoft\WindowsApps;;C:\WINDOWS\system32]
+16:07:58 **** Clean-only build of configuration Debug for project ProgramasC ****
+make clean 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/Jonatas/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412/jre/bin/server;C:/Users/Jonatas/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412/jre/bin;C:\Python312\Scripts\;C:\Python312\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Jonatas\AppData\Local\Microsoft\WindowsApps;C:\Users\Jonatas\.dotnet\tools;C:\Users\Jonatas\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\Jonatas\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Jonatas\AppData\Roaming\npm;C:\Users\Jonatas\.dotnet\tools;C:\Users\Jonatas\AppData\Local\Microsoft\WindowsApps;;C:\WINDOWS\system32]
+16:07:58 **** Build of configuration Debug for project ProgramasC ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/Jonatas/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412/jre/bin/server;C:/Users/Jonatas/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.8.v20250724-1412/jre/bin;C:\Python312\Scripts\;C:\Python312\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Jonatas\AppData\Local\Microsoft\WindowsApps;C:\Users\Jonatas\.dotnet\tools;C:\Users\Jonatas\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\Jonatas\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Jonatas\AppData\Roaming\npm;C:\Users\Jonatas\.dotnet\tools;C:\Users\Jonatas\AppData\Local\Microsoft\WindowsApps;;C:\WINDOWS\system32]
+16:49:35 **** Incremental Build of configuration Debug for project ProgramasC ****
+make all 
+'Building file: ../teste.c'
+'Invoking: Cross GCC Compiler'
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"teste.d" -MT"teste.o" -o "teste.o" "../teste.c"
+'Finished building: ../teste.c'
+' '
+'Building target: ProgramasC'
+'Invoking: Cross GCC Linker'
+gcc  -o "ProgramasC" ./teste.o   
+'Finished building target: ProgramasC'
+' '
+16:57:41 **** Rebuild of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o teste.o "..\\teste.c" 
+gcc -o ProgramasC.exe teste.o 
+Info: Nothing to build for ProgramasC
+Info: Nothing to build for ProgramasC
+Info: Nothing to build for ProgramasC
+Info: Nothing to build for ProgramasC
+17:18:27 **** Clean-only build of configuration Debug for project ProgramasC ****
+rm -rf teste.d ProgramasC.exe teste.o 
+17:18:27 **** Rebuild of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o teste.o "..\\teste.c" 
+gcc -o ProgramasC.exe teste.o 
+Info: Nothing to build for ProgramasC
+17:28:28 **** Incremental Build of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o outro.o "..\\outro.c" 
+gcc -o ProgramasC.exe outro.o teste.o 
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: teste.o: in function `main':
+C:/Users/Jonatas/eclipse-workspace/ProgramasC/Debug/../teste.c:3: multiple definition of `main'; outro.o:C:/Users/Jonatas/eclipse-workspace/ProgramasC/Debug/../outro.c:3: first defined here
+collect2.exe: error: ld returned 1 exit status
+17:28:57 **** Incremental Build of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -o ProgramasC.exe outro.o teste.o 
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: teste.o: in function `main':
+C:/Users/Jonatas/eclipse-workspace/ProgramasC/Debug/../teste.c:3: multiple definition of `main'; outro.o:C:/Users/Jonatas/eclipse-workspace/ProgramasC/Debug/../outro.c:3: first defined here
+collect2.exe: error: ld returned 1 exit status
+17:30:44 **** Clean-only build of configuration Debug for project ProgramasC ****
+rm -rf outro.o ProgramasC.exe outro.d 
+17:30:44 **** Rebuild of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o outro.o "..\\outro.c" 
+gcc -o ProgramasC.exe outro.o 
+Info: Nothing to build for ProgramasC
+17:30:56 **** Incremental Build of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o outro.o "..\\outro.c" 
+gcc -o ProgramasC.exe outro.o 
+17:31:39 **** Clean-only build of configuration Debug for project ProgramasC ****
+rm -rf teste.d ProgramasC.exe teste.o 
+17:31:47 **** Rebuild of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o teste.o "..\\teste.c" 
+gcc -o ProgramasC.exe teste.o 

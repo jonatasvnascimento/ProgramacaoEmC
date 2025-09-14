@@ -1,0 +1,12 @@
+additional_options=--log\=error
+background_index=true
+clangd_path=clangd
+completion_style=detailed
+eclipse.preferences.version=1
+fill_function_arguments=true
+log_to_console=false
+pretty_print=true
+query_driver=
+set_compilation_database=true
+use_tidy=true
+validate_clangd_options=true
