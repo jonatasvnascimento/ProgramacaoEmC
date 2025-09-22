@@ -1023,3 +1023,4 @@ Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Secao3Exercicios.o "..\\Secao3Exercicios.c" 
 gcc -o ProgramasC.exe Secao3Exercicios.o 
 Info: Nothing to build for ProgramasC
+Info: Nothing to build for ProgramasC
