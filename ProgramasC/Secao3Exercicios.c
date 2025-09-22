@@ -8,14 +8,15 @@ void RetornoSoma();
 void RetornoSomaAritimatica();
 //Exercicio da loteria
 float RegraDeTres(int totalAposta, int aposta);
-void LoteriaProporcional();
+float ValorApostaPremio(float premio, float porcentagemAposta1);
+void RetornoLoteriaProporcional();
+void LoteriaProporcional(float valorPremioAposta1, float valorPremioAposta2, float valorPremioAposta3);
 
 int main() {
 
 	RetornoSoma();
 	RetornoSomaAritimatica();
-
-	LoteriaProporcional();
+	RetornoLoteriaProporcional();
 	return 0;
 }
 
@@ -29,6 +30,7 @@ void RetornoSoma() {
 
 void RetornoMensagem(const char *mensagem) {
 	printf("%s", mensagem);
+	mensagem = NULL;
 }
 
 int Soma(int a, int b, int c) {
@@ -48,10 +50,11 @@ void RetornoSomaAritimatica() {
 }
 
 //Exercicio da loteria
-void LoteriaProporcional(){
+void RetornoLoteriaProporcional(){
 	int aposta1 = 10;
 	int aposta2 = 6;
 	int aposta3 = 4;
+	float premio = 10000;
 
 	int totalAposta = aposta1 + aposta2 + aposta3;
 
@@ -59,12 +62,33 @@ void LoteriaProporcional(){
 	float porcentagemAposta2 = RegraDeTres(totalAposta, aposta2);
 	float porcentagemAposta3 = RegraDeTres(totalAposta, aposta3);
 
-	printf("");
+	float valorPremioAposta1 = ValorApostaPremio(premio, porcentagemAposta1);
+	float valorPremioAposta2 = ValorApostaPremio(premio, porcentagemAposta2);
+	float valorPremioAposta3 = ValorApostaPremio(premio, porcentagemAposta3);
+
+	LoteriaProporcional(valorPremioAposta1, valorPremioAposta2, valorPremioAposta3);
+
+}
+
+void LoteriaProporcional(float valorPremioAposta1, float valorPremioAposta2, float valorPremioAposta3){
+	char mensagem[50] = "";
+	snprintf(mensagem, sizeof(mensagem), "Premio Aposta 1: R$ %.2f\n", valorPremioAposta1);
+	RetornoMensagem(mensagem);
+
+	snprintf(mensagem, sizeof(mensagem), "Premio Aposta 2: R$ %.2f\n", valorPremioAposta2);
+	RetornoMensagem(mensagem);
+
+	snprintf(mensagem, sizeof(mensagem), "Premio Aposta 3: R$ %.2f\n", valorPremioAposta3);
+	RetornoMensagem(mensagem);
+}
+
+float ValorApostaPremio(float premio, float porcentagemAposta1){
+	return premio * (porcentagemAposta1 / 100);
 }
 
 float RegraDeTres(int totalAposta, int aposta){
 	float multiplicacaoCruzada = aposta * 100;
-	float porcentagem = multiplicacaoCruzada /totalAposta;
+	float porcentagem = multiplicacaoCruzada / totalAposta;
 
 	return porcentagem;
 }

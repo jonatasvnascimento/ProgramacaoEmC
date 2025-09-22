@@ -609,3 +609,417 @@ gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Secao3Exercicios.o "..\\Secao3Exercic
       |               ^~~~~~~~~~~~~~~~~~
 gcc -o ProgramasC.exe Secao3Exercicios.o 
 Info: Nothing to build for ProgramasC
+17:47:22 **** Rebuild of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Secao3Exercicios.o "..\\Secao3Exercicios.c" 
+..\Secao3Exercicios.c: In function 'LoteriaProporcional':
+..\Secao3Exercicios.c:62:16: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+   62 |         printf("");
+      |                ^~
+..\Secao3Exercicios.c:60:15: warning: unused variable 'porcentagemAposta3' [-Wunused-variable]
+   60 |         float porcentagemAposta3 = RegraDeTres(totalAposta, aposta3);
+      |               ^~~~~~~~~~~~~~~~~~
+..\Secao3Exercicios.c:59:15: warning: unused variable 'porcentagemAposta2' [-Wunused-variable]
+   59 |         float porcentagemAposta2 = RegraDeTres(totalAposta, aposta2);
+      |               ^~~~~~~~~~~~~~~~~~
+..\Secao3Exercicios.c:58:15: warning: unused variable 'porcentagemAposta1' [-Wunused-variable]
+   58 |         float porcentagemAposta1 = RegraDeTres(totalAposta, aposta1);
+      |               ^~~~~~~~~~~~~~~~~~
+gcc -o ProgramasC.exe Secao3Exercicios.o 
+18:22:30 **** Incremental Build of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Secao3Exercicios.o "..\\Secao3Exercicios.c" 
+..\Secao3Exercicios.c: In function 'main':
+..\Secao3Exercicios.c:18:9: error: implicit declaration of function 'RetornoLoteriaProporcional'; did you mean 'LoteriaProporcional'? [-Wimplicit-function-declaration]
+   18 |         RetornoLoteriaProporcional();
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         LoteriaProporcional
+..\Secao3Exercicios.c: At top level:
+..\Secao3Exercicios.c:51:6: warning: conflicting types for 'RetornoLoteriaProporcional'; have 'void(void)'
+   51 | void RetornoLoteriaProporcional(){
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+..\Secao3Exercicios.c:18:9: note: previous implicit declaration of 'RetornoLoteriaProporcional' with type 'void(void)'
+   18 |         RetornoLoteriaProporcional();
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+..\Secao3Exercicios.c: In function 'RetornoLoteriaProporcional':
+..\Secao3Exercicios.c:65:16: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+   65 |         printf("");
+      |                ^~
+..\Secao3Exercicios.c:63:15: warning: unused variable 'valorPremioAposta1' [-Wunused-variable]
+   63 |         float valorPremioAposta1 = premio * porcentagemAposta1;
+      |               ^~~~~~~~~~~~~~~~~~
+..\Secao3Exercicios.c:61:15: warning: unused variable 'porcentagemAposta3' [-Wunused-variable]
+   61 |         float porcentagemAposta3 = RegraDeTres(totalAposta, aposta3);
+      |               ^~~~~~~~~~~~~~~~~~
+..\Secao3Exercicios.c:60:15: warning: unused variable 'porcentagemAposta2' [-Wunused-variable]
+   60 |         float porcentagemAposta2 = RegraDeTres(totalAposta, aposta2);
+      |               ^~~~~~~~~~~~~~~~~~
+18:22:41 **** Incremental Build of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Secao3Exercicios.o "..\\Secao3Exercicios.c" 
+..\Secao3Exercicios.c: In function 'RetornoLoteriaProporcional':
+..\Secao3Exercicios.c:65:16: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+   65 |         printf("");
+      |                ^~
+..\Secao3Exercicios.c:63:15: warning: unused variable 'valorPremioAposta1' [-Wunused-variable]
+   63 |         float valorPremioAposta1 = premio * porcentagemAposta1;
+      |               ^~~~~~~~~~~~~~~~~~
+..\Secao3Exercicios.c:61:15: warning: unused variable 'porcentagemAposta3' [-Wunused-variable]
+   61 |         float porcentagemAposta3 = RegraDeTres(totalAposta, aposta3);
+      |               ^~~~~~~~~~~~~~~~~~
+..\Secao3Exercicios.c:60:15: warning: unused variable 'porcentagemAposta2' [-Wunused-variable]
+   60 |         float porcentagemAposta2 = RegraDeTres(totalAposta, aposta2);
+      |               ^~~~~~~~~~~~~~~~~~
+gcc -o ProgramasC.exe Secao3Exercicios.o 
+18:23:43 **** Incremental Build of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Secao3Exercicios.o "..\\Secao3Exercicios.c" 
+..\Secao3Exercicios.c: In function 'RetornoLoteriaProporcional':
+..\Secao3Exercicios.c:65:16: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+   65 |         printf("");
+      |                ^~
+..\Secao3Exercicios.c:63:15: warning: unused variable 'valorPremioAposta1' [-Wunused-variable]
+   63 |         float valorPremioAposta1 = premio / porcentagemAposta1;
+      |               ^~~~~~~~~~~~~~~~~~
+..\Secao3Exercicios.c:61:15: warning: unused variable 'porcentagemAposta3' [-Wunused-variable]
+   61 |         float porcentagemAposta3 = RegraDeTres(totalAposta, aposta3);
+      |               ^~~~~~~~~~~~~~~~~~
+..\Secao3Exercicios.c:60:15: warning: unused variable 'porcentagemAposta2' [-Wunused-variable]
+   60 |         float porcentagemAposta2 = RegraDeTres(totalAposta, aposta2);
+      |               ^~~~~~~~~~~~~~~~~~
+gcc -o ProgramasC.exe Secao3Exercicios.o 
+18:24:41 **** Incremental Build of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Secao3Exercicios.o "..\\Secao3Exercicios.c" 
+..\Secao3Exercicios.c: In function 'RetornoLoteriaProporcional':
+..\Secao3Exercicios.c:65:16: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+   65 |         printf("");
+      |                ^~
+..\Secao3Exercicios.c:63:15: warning: unused variable 'valorPremioAposta1' [-Wunused-variable]
+   63 |         float valorPremioAposta1 = premio * (porcentagemAposta1 / 100);
+      |               ^~~~~~~~~~~~~~~~~~
+..\Secao3Exercicios.c:61:15: warning: unused variable 'porcentagemAposta3' [-Wunused-variable]
+   61 |         float porcentagemAposta3 = RegraDeTres(totalAposta, aposta3);
+      |               ^~~~~~~~~~~~~~~~~~
+..\Secao3Exercicios.c:60:15: warning: unused variable 'porcentagemAposta2' [-Wunused-variable]
+   60 |         float porcentagemAposta2 = RegraDeTres(totalAposta, aposta2);
+      |               ^~~~~~~~~~~~~~~~~~
+gcc -o ProgramasC.exe Secao3Exercicios.o 
+18:41:14 **** Incremental Build of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Secao3Exercicios.o "..\\Secao3Exercicios.c" 
+..\Secao3Exercicios.c: In function 'RetornoLoteriaProporcional':
+..\Secao3Exercicios.c:69:65: warning: format '%d' expects argument of type 'int', but argument 4 has type 'double' [-Wformat=]
+   69 |         snprintf(mensagem, sizeof(mensagem), "Premio Aposta 1: %d\n", valorPremioAposta1);
+      |                                                                ~^     ~~~~~~~~~~~~~~~~~~
+      |                                                                 |     |
+      |                                                                 int   double
+      |                                                                %f
+..\Secao3Exercicios.c:70:65: warning: format '%d' expects argument of type 'int', but argument 4 has type 'double' [-Wformat=]
+   70 |         snprintf(mensagem, sizeof(mensagem), "Premio Aposta 2: %d\n", valorPremioAposta2);
+      |                                                                ~^     ~~~~~~~~~~~~~~~~~~
+      |                                                                 |     |
+      |                                                                 int   double
+      |                                                                %f
+..\Secao3Exercicios.c:71:65: warning: format '%d' expects argument of type 'int', but argument 4 has type 'double' [-Wformat=]
+   71 |         snprintf(mensagem, sizeof(mensagem), "Premio Aposta 3: %d\n", valorPremioAposta3);
+      |                                                                ~^     ~~~~~~~~~~~~~~~~~~
+      |                                                                 |     |
+      |                                                                 int   double
+      |                                                                %f
+gcc -o ProgramasC.exe Secao3Exercicios.o 
+18:42:39 **** Incremental Build of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Secao3Exercicios.o "..\\Secao3Exercicios.c" 
+..\Secao3Exercicios.c: In function 'RetornoLoteriaProporcional':
+..\Secao3Exercicios.c:69:65: warning: format '%d' expects argument of type 'int', but argument 4 has type 'double' [-Wformat=]
+   69 |         snprintf(mensagem, sizeof(mensagem), "Premio Aposta 1: %d\n", valorPremioAposta1);
+      |                                                                ~^     ~~~~~~~~~~~~~~~~~~
+      |                                                                 |     |
+      |                                                                 int   double
+      |                                                                %f
+..\Secao3Exercicios.c:72:14: error: redefinition of 'mensagem'
+   72 |         char mensagem[100] = "";
+      |              ^~~~~~~~
+..\Secao3Exercicios.c:68:14: note: previous definition of 'mensagem' with type 'char[100]'
+   68 |         char mensagem[100] = "";
+      |              ^~~~~~~~
+..\Secao3Exercicios.c:73:65: warning: format '%d' expects argument of type 'int', but argument 4 has type 'double' [-Wformat=]
+   73 |         snprintf(mensagem, sizeof(mensagem), "Premio Aposta 2: %d\n", valorPremioAposta2);
+      |                                                                ~^     ~~~~~~~~~~~~~~~~~~
+      |                                                                 |     |
+      |                                                                 int   double
+      |                                                                %f
+..\Secao3Exercicios.c:76:14: error: redefinition of 'mensagem'
+   76 |         char mensagem[100] = "";
+      |              ^~~~~~~~
+..\Secao3Exercicios.c:72:14: note: previous definition of 'mensagem' with type 'char[100]'
+   72 |         char mensagem[100] = "";
+      |              ^~~~~~~~
+..\Secao3Exercicios.c:77:65: warning: format '%d' expects argument of type 'int', but argument 4 has type 'double' [-Wformat=]
+   77 |         snprintf(mensagem, sizeof(mensagem), "Premio Aposta 3: %d\n", valorPremioAposta3);
+      |                                                                ~^     ~~~~~~~~~~~~~~~~~~
+      |                                                                 |     |
+      |                                                                 int   double
+      |                                                                %f
+18:43:01 **** Incremental Build of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Secao3Exercicios.o "..\\Secao3Exercicios.c" 
+..\Secao3Exercicios.c: In function 'RetornoLoteriaProporcional':
+..\Secao3Exercicios.c:69:65: warning: format '%d' expects argument of type 'int', but argument 4 has type 'double' [-Wformat=]
+   69 |         snprintf(mensagem, sizeof(mensagem), "Premio Aposta 1: %d\n", valorPremioAposta1);
+      |                                                                ~^     ~~~~~~~~~~~~~~~~~~
+      |                                                                 |     |
+      |                                                                 int   double
+      |                                                                %f
+..\Secao3Exercicios.c:72:23: error: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   72 |         mensagem[100] = "";
+      |                       ^
+..\Secao3Exercicios.c:73:65: warning: format '%d' expects argument of type 'int', but argument 4 has type 'double' [-Wformat=]
+   73 |         snprintf(mensagem, sizeof(mensagem), "Premio Aposta 2: %d\n", valorPremioAposta2);
+      |                                                                ~^     ~~~~~~~~~~~~~~~~~~
+      |                                                                 |     |
+      |                                                                 int   double
+      |                                                                %f
+..\Secao3Exercicios.c:76:23: error: assignment to 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   76 |         mensagem[100] = "";
+      |                       ^
+..\Secao3Exercicios.c:77:65: warning: format '%d' expects argument of type 'int', but argument 4 has type 'double' [-Wformat=]
+   77 |         snprintf(mensagem, sizeof(mensagem), "Premio Aposta 3: %d\n", valorPremioAposta3);
+      |                                                                ~^     ~~~~~~~~~~~~~~~~~~
+      |                                                                 |     |
+      |                                                                 int   double
+      |                                                                %f
+18:43:33 **** Incremental Build of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Secao3Exercicios.o "..\\Secao3Exercicios.c" 
+..\Secao3Exercicios.c: In function 'RetornoLoteriaProporcional':
+..\Secao3Exercicios.c:70:65: warning: format '%d' expects argument of type 'int', but argument 4 has type 'double' [-Wformat=]
+   70 |         snprintf(mensagem, sizeof(mensagem), "Premio Aposta 1: %d\n", valorPremioAposta1);
+      |                                                                ~^     ~~~~~~~~~~~~~~~~~~
+      |                                                                 |     |
+      |                                                                 int   double
+      |                                                                %f
+..\Secao3Exercicios.c:73:65: warning: format '%d' expects argument of type 'int', but argument 4 has type 'double' [-Wformat=]
+   73 |         snprintf(mensagem, sizeof(mensagem), "Premio Aposta 2: %d\n", valorPremioAposta2);
+      |                                                                ~^     ~~~~~~~~~~~~~~~~~~
+      |                                                                 |     |
+      |                                                                 int   double
+      |                                                                %f
+..\Secao3Exercicios.c:76:65: warning: format '%d' expects argument of type 'int', but argument 4 has type 'double' [-Wformat=]
+   76 |         snprintf(mensagem, sizeof(mensagem), "Premio Aposta 3: %d\n", valorPremioAposta3);
+      |                                                                ~^     ~~~~~~~~~~~~~~~~~~
+      |                                                                 |     |
+      |                                                                 int   double
+      |                                                                %f
+gcc -o ProgramasC.exe Secao3Exercicios.o 
+Info: Nothing to build for ProgramasC
+18:44:49 **** Incremental Build of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Secao3Exercicios.o "..\\Secao3Exercicios.c" 
+..\Secao3Exercicios.c: In function 'RetornoLoteriaProporcional':
+..\Secao3Exercicios.c:70:65: warning: format '%d' expects argument of type 'int', but argument 4 has type 'double' [-Wformat=]
+   70 |         snprintf(mensagem, sizeof(mensagem), "Premio Aposta 1: %d\n", valorPremioAposta1);
+      |                                                                ~^     ~~~~~~~~~~~~~~~~~~
+      |                                                                 |     |
+      |                                                                 int   double
+      |                                                                %f
+..\Secao3Exercicios.c:67:15: warning: unused variable 'valorPremioAposta3' [-Wunused-variable]
+   67 |         float valorPremioAposta3 = ValorApostaPremio(premio, porcentagemAposta3);
+      |               ^~~~~~~~~~~~~~~~~~
+..\Secao3Exercicios.c:66:15: warning: unused variable 'valorPremioAposta2' [-Wunused-variable]
+   66 |         float valorPremioAposta2 = ValorApostaPremio(premio, porcentagemAposta2);
+      |               ^~~~~~~~~~~~~~~~~~
+gcc -o ProgramasC.exe Secao3Exercicios.o 
+Info: Nothing to build for ProgramasC
+Info: Nothing to build for ProgramasC
+Info: Nothing to build for ProgramasC
+18:46:30 **** Incremental Build of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Secao3Exercicios.o "..\\Secao3Exercicios.c" 
+..\Secao3Exercicios.c: In function 'RetornoLoteriaProporcional':
+..\Secao3Exercicios.c:67:15: warning: unused variable 'valorPremioAposta3' [-Wunused-variable]
+   67 |         float valorPremioAposta3 = ValorApostaPremio(premio, porcentagemAposta3);
+      |               ^~~~~~~~~~~~~~~~~~
+..\Secao3Exercicios.c:66:15: warning: unused variable 'valorPremioAposta2' [-Wunused-variable]
+   66 |         float valorPremioAposta2 = ValorApostaPremio(premio, porcentagemAposta2);
+      |               ^~~~~~~~~~~~~~~~~~
+gcc -o ProgramasC.exe Secao3Exercicios.o 
+18:47:04 **** Incremental Build of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Secao3Exercicios.o "..\\Secao3Exercicios.c" 
+..\Secao3Exercicios.c: In function 'RetornoLoteriaProporcional':
+..\Secao3Exercicios.c:67:15: warning: unused variable 'valorPremioAposta3' [-Wunused-variable]
+   67 |         float valorPremioAposta3 = ValorApostaPremio(premio, porcentagemAposta3);
+      |               ^~~~~~~~~~~~~~~~~~
+..\Secao3Exercicios.c:66:15: warning: unused variable 'valorPremioAposta2' [-Wunused-variable]
+   66 |         float valorPremioAposta2 = ValorApostaPremio(premio, porcentagemAposta2);
+      |               ^~~~~~~~~~~~~~~~~~
+gcc -o ProgramasC.exe Secao3Exercicios.o 
+18:47:15 **** Incremental Build of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Secao3Exercicios.o "..\\Secao3Exercicios.c" 
+..\Secao3Exercicios.c: In function 'RetornoLoteriaProporcional':
+..\Secao3Exercicios.c:67:15: warning: unused variable 'valorPremioAposta3' [-Wunused-variable]
+   67 |         float valorPremioAposta3 = ValorApostaPremio(premio, porcentagemAposta3);
+      |               ^~~~~~~~~~~~~~~~~~
+..\Secao3Exercicios.c:66:15: warning: unused variable 'valorPremioAposta2' [-Wunused-variable]
+   66 |         float valorPremioAposta2 = ValorApostaPremio(premio, porcentagemAposta2);
+      |               ^~~~~~~~~~~~~~~~~~
+gcc -o ProgramasC.exe Secao3Exercicios.o 
+18:47:28 **** Incremental Build of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Secao3Exercicios.o "..\\Secao3Exercicios.c" 
+..\Secao3Exercicios.c: In function 'RetornoLoteriaProporcional':
+..\Secao3Exercicios.c:67:15: warning: unused variable 'valorPremioAposta3' [-Wunused-variable]
+   67 |         float valorPremioAposta3 = ValorApostaPremio(premio, porcentagemAposta3);
+      |               ^~~~~~~~~~~~~~~~~~
+..\Secao3Exercicios.c:66:15: warning: unused variable 'valorPremioAposta2' [-Wunused-variable]
+   66 |         float valorPremioAposta2 = ValorApostaPremio(premio, porcentagemAposta2);
+      |               ^~~~~~~~~~~~~~~~~~
+gcc -o ProgramasC.exe Secao3Exercicios.o 
+18:47:48 **** Incremental Build of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Secao3Exercicios.o "..\\Secao3Exercicios.c" 
+..\Secao3Exercicios.c: In function 'RetornoLoteriaProporcional':
+..\Secao3Exercicios.c:67:15: warning: unused variable 'valorPremioAposta3' [-Wunused-variable]
+   67 |         float valorPremioAposta3 = ValorApostaPremio(premio, porcentagemAposta3);
+      |               ^~~~~~~~~~~~~~~~~~
+gcc -o ProgramasC.exe Secao3Exercicios.o 
+18:48:04 **** Incremental Build of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Secao3Exercicios.o "..\\Secao3Exercicios.c" 
+..\Secao3Exercicios.c: In function 'RetornoLoteriaProporcional':
+..\Secao3Exercicios.c:67:15: warning: unused variable 'valorPremioAposta3' [-Wunused-variable]
+   67 |         float valorPremioAposta3 = ValorApostaPremio(premio, porcentagemAposta3);
+      |               ^~~~~~~~~~~~~~~~~~
+gcc -o ProgramasC.exe Secao3Exercicios.o 
+18:48:20 **** Incremental Build of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Secao3Exercicios.o "..\\Secao3Exercicios.c" 
+gcc -o ProgramasC.exe Secao3Exercicios.o 
+18:50:13 **** Incremental Build of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Secao3Exercicios.o "..\\Secao3Exercicios.c" 
+..\Secao3Exercicios.c: In function 'LoteriaProporcional':
+..\Secao3Exercicios.c:69:9: error: too many arguments to function 'RetornoLoteriaProporcional'; expected 0, have 3
+   69 |         RetornoLoteriaProporcional(valorPremioAposta1, valorPremioAposta2, valorPremioAposta3);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~ ~~~~~~~~~~~~~~~~~~
+..\Secao3Exercicios.c:11:6: note: declared here
+   11 | void RetornoLoteriaProporcional();
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+..\Secao3Exercicios.c: At top level:
+..\Secao3Exercicios.c:73:6: error: conflicting types for 'RetornoLoteriaProporcional'; have 'void(float,  float,  float)'
+   73 | void RetornoLoteriaProporcional(float valorPremioAposta1, float valorPremioAposta2, float valorPremioAposta3){
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+..\Secao3Exercicios.c:11:6: note: previous declaration of 'RetornoLoteriaProporcional' with type 'void(void)'
+   11 | void RetornoLoteriaProporcional();
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+18:50:35 **** Incremental Build of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Secao3Exercicios.o "..\\Secao3Exercicios.c" 
+..\Secao3Exercicios.c: In function 'RetornoLoteriaProporcional':
+..\Secao3Exercicios.c:14:12: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   14 | int main() {
+      |            ^
+..\Secao3Exercicios.c:24:20: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   24 | void RetornoSoma() {
+      |                    ^
+..\Secao3Exercicios.c:31:44: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   31 | void RetornoMensagem(const char *mensagem) {
+      |                                            ^
+..\Secao3Exercicios.c:36:31: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   36 | int Soma(int a, int b, int c) {
+      |                               ^
+..\Secao3Exercicios.c:41:48: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   41 | int SomaAritimatica(int a, int b, int c, int d){
+      |                                                ^
+..\Secao3Exercicios.c:45:31: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   45 | void RetornoSomaAritimatica() {
+      |                               ^
+..\Secao3Exercicios.c:53:27: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   53 | void LoteriaProporcional(){
+      |                           ^
+..\Secao3Exercicios.c:73:110: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   73 | void RetornoLoteriaProporcional(float valorPremioAposta1, float valorPremioAposta2, float valorPremioAposta3){
+      |                                                                                                              ^
+..\Secao3Exercicios.c:85:64: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   85 | float ValorApostaPremio(float premio, float porcentagemAposta1){
+      |                                                                ^
+..\Secao3Exercicios.c:89:47: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   89 | float RegraDeTres(int totalAposta, int aposta){
+      |                                               ^
+..\Secao3Exercicios.c:11:6: error: old-style parameter declarations in prototyped function definition
+   11 | void RetornoLoteriaProporcional(float valorPremioAposta1, float valorPremioAposta2, float valorPremioAposta3)
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+..\Secao3Exercicios.c:107: error: expected '{' at end of input
+18:50:47 **** Incremental Build of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Secao3Exercicios.o "..\\Secao3Exercicios.c" 
+..\Secao3Exercicios.c: In function 'main':
+..\Secao3Exercicios.c:19:9: error: too few arguments to function 'RetornoLoteriaProporcional'; expected 3, have 0
+   19 |         RetornoLoteriaProporcional();
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+..\Secao3Exercicios.c:11:6: note: declared here
+   11 | void RetornoLoteriaProporcional(float valorPremioAposta1, float valorPremioAposta2, float valorPremioAposta3);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+18:51:22 **** Incremental Build of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Secao3Exercicios.o "..\\Secao3Exercicios.c" 
+..\Secao3Exercicios.c: In function 'RetornoLoteriaProporcional':
+..\Secao3Exercicios.c:68:9: error: too many arguments to function 'RetornoLoteriaProporcional'; expected 0, have 3
+   68 |         RetornoLoteriaProporcional(valorPremioAposta1, valorPremioAposta2, valorPremioAposta3);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~ ~~~~~~~~~~~~~~~~~~
+..\Secao3Exercicios.c:52:6: note: declared here
+   52 | void RetornoLoteriaProporcional(){
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+18:51:31 **** Incremental Build of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Secao3Exercicios.o "..\\Secao3Exercicios.c" 
+..\Secao3Exercicios.c: In function 'RetornoLoteriaProporcional':
+..\Secao3Exercicios.c:68:9: error: implicit declaration of function 'LoteriaProporcional'; did you mean 'RetornoLoteriaProporcional'? [-Wimplicit-function-declaration]
+   68 |         LoteriaProporcional(valorPremioAposta1, valorPremioAposta2, valorPremioAposta3);
+      |         ^~~~~~~~~~~~~~~~~~~
+      |         RetornoLoteriaProporcional
+..\Secao3Exercicios.c: At top level:
+..\Secao3Exercicios.c:72:6: warning: conflicting types for 'LoteriaProporcional'; have 'void(float,  float,  float)'
+   72 | void LoteriaProporcional(float valorPremioAposta1, float valorPremioAposta2, float valorPremioAposta3){
+      |      ^~~~~~~~~~~~~~~~~~~
+..\Secao3Exercicios.c:68:9: note: previous implicit declaration of 'LoteriaProporcional' with type 'void(float,  float,  float)'
+   68 |         LoteriaProporcional(valorPremioAposta1, valorPremioAposta2, valorPremioAposta3);
+      |         ^~~~~~~~~~~~~~~~~~~
+18:51:46 **** Incremental Build of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Secao3Exercicios.o "..\\Secao3Exercicios.c" 
+..\Secao3Exercicios.c: In function 'RetornoLoteriaProporcional':
+..\Secao3Exercicios.c:68:9: error: implicit declaration of function 'LoteriaProporcional'; did you mean 'RetornoLoteriaProporcional'? [-Wimplicit-function-declaration]
+   68 |         LoteriaProporcional(valorPremioAposta1, valorPremioAposta2, valorPremioAposta3);
+      |         ^~~~~~~~~~~~~~~~~~~
+      |         RetornoLoteriaProporcional
+..\Secao3Exercicios.c: At top level:
+..\Secao3Exercicios.c:72:6: warning: conflicting types for 'LoteriaProporcional'; have 'void(float,  float,  float)'
+   72 | void LoteriaProporcional(float valorPremioAposta1, float valorPremioAposta2, float valorPremioAposta3){
+      |      ^~~~~~~~~~~~~~~~~~~
+..\Secao3Exercicios.c:68:9: note: previous implicit declaration of 'LoteriaProporcional' with type 'void(float,  float,  float)'
+   68 |         LoteriaProporcional(valorPremioAposta1, valorPremioAposta2, valorPremioAposta3);
+      |         ^~~~~~~~~~~~~~~~~~~
+18:51:58 **** Incremental Build of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Secao3Exercicios.o "..\\Secao3Exercicios.c" 
+..\Secao3Exercicios.c: In function 'RetornoLoteriaProporcional':
+..\Secao3Exercicios.c:68:9: error: implicit declaration of function 'LoteriaProporcional'; did you mean 'RetornoLoteriaProporcional'? [-Wimplicit-function-declaration]
+   68 |         LoteriaProporcional(valorPremioAposta1, valorPremioAposta2, valorPremioAposta3);
+      |         ^~~~~~~~~~~~~~~~~~~
+      |         RetornoLoteriaProporcional
+..\Secao3Exercicios.c: At top level:
+..\Secao3Exercicios.c:72:6: warning: conflicting types for 'LoteriaProporcional'; have 'void(float,  float,  float)'
+   72 | void LoteriaProporcional(float valorPremioAposta1, float valorPremioAposta2, float valorPremioAposta3){
+      |      ^~~~~~~~~~~~~~~~~~~
+..\Secao3Exercicios.c:68:9: note: previous implicit declaration of 'LoteriaProporcional' with type 'void(float,  float,  float)'
+   68 |         LoteriaProporcional(valorPremioAposta1, valorPremioAposta2, valorPremioAposta3);
+      |         ^~~~~~~~~~~~~~~~~~~
+18:52:25 **** Incremental Build of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Secao3Exercicios.o "..\\Secao3Exercicios.c" 
+gcc -o ProgramasC.exe Secao3Exercicios.o 
+Info: Nothing to build for ProgramasC
