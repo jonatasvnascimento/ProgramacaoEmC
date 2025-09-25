@@ -10,6 +10,7 @@ void ModificandoVetor();
 void ExibirVetor();
 void LerPosicoesMostrar();
 void LimparMemoria();
+void LerEColocarZeroNosNegativos();
 
 int main(){
 
@@ -22,9 +23,12 @@ int main(){
 	//D
 	ExibirVetor();
 	//2
-	LerPosicoesMostrar();
+	//LerPosicoesMostrar();
+	//3
+	LerEColocarZeroNosNegativos();
 
 	LimparMemoria();
+
 	return 0;
 }
 
@@ -102,4 +106,24 @@ void LerPosicoesMostrar(){
 
 	printf("Quantidade de valores pares: %d\n", valoresPares);
 
+}
+
+
+void LerEColocarZeroNosNegativos(){
+	int posicao = 0;
+	int valoresPares = 0;
+
+	int *C = NULL;
+	C = (int *)malloc(10 * sizeof(int));
+
+	for(int i = 0; i < 10;i++) {
+		printf("Digite um valor para a posicao %d: ", i);
+		fflush(stdout);
+		scanf("%d", &C[i]);
+
+		if(C[i] < 0){
+			printf("Valor negativo %d encontrado, substituido por 0\n", C[i]);
+			C[i] = 0;
+		}
+	}
 }
