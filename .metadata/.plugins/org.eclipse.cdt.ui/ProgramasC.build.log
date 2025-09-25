@@ -1,1 +1,7 @@
-Info: Nothing to build for ProgramasC
+16:43:02 **** Incremental Build of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Secao6Execicios.o "..\\Secao6Execicios.c" 
+gcc -o ProgramasC.exe Secao6Execicios.o 
+
+16:43:03 Build Finished. 0 errors, 0 warnings. (took 473ms)
+
