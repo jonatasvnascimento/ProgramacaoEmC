@@ -1273,3 +1273,102 @@ gcc -o ProgramasC.exe Secao6Execicios.o
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Secao6Execicios.o "..\\Secao6Execicios.c" 
 gcc -o ProgramasC.exe Secao6Execicios.o 
+16:53:39 **** Incremental Build of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Secao6Execicios.o "..\\Secao6Execicios.c" 
+..\Secao6Execicios.c: In function 'LerEColocarZeroNosNegativos':
+..\Secao6Execicios.c:110:13: warning: unused variable 'valoresPares' [-Wunused-variable]
+  110 |         int valoresPares = 0;
+      |             ^~~~~~~~~~~~
+..\Secao6Execicios.c:109:13: warning: unused variable 'posicao' [-Wunused-variable]
+  109 |         int posicao = 0;
+      |             ^~~~~~~
+..\Secao6Execicios.c: At top level:
+..\Secao6Execicios.c:135:1: error: expected identifier or '(' before '}' token
+  135 | }
+      | ^
+16:54:13 **** Incremental Build of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Secao6Execicios.o "..\\Secao6Execicios.c" 
+..\Secao6Execicios.c: In function 'LerEColocarZeroNosNegativos':
+..\Secao6Execicios.c:114:13: warning: unused variable 'valoresPares' [-Wunused-variable]
+  114 |         int valoresPares = 0;
+      |             ^~~~~~~~~~~~
+..\Secao6Execicios.c:113:13: warning: unused variable 'posicao' [-Wunused-variable]
+  113 |         int posicao = 0;
+      |             ^~~~~~~
+..\Secao6Execicios.c: At top level:
+..\Secao6Execicios.c:139:1: error: expected identifier or '(' before '}' token
+  139 | }
+      | ^
+16:55:01 **** Incremental Build of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Secao6Execicios.o "..\\Secao6Execicios.c" 
+..\Secao6Execicios.c: In function 'LerEColocarZeroNosNegativos':
+..\Secao6Execicios.c:114:13: warning: unused variable 'valoresPares' [-Wunused-variable]
+  114 |         int valoresPares = 0;
+      |             ^~~~~~~~~~~~
+..\Secao6Execicios.c:113:13: warning: unused variable 'posicao' [-Wunused-variable]
+  113 |         int posicao = 0;
+      |             ^~~~~~~
+..\Secao6Execicios.c: At top level:
+..\Secao6Execicios.c:139:1: error: expected identifier or '(' before '}' token
+  139 | }
+      | ^
+16:55:12 **** Incremental Build of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Secao6Execicios.o "..\\Secao6Execicios.c" 
+..\Secao6Execicios.c: In function 'LerEColocarZeroNosNegativos':
+..\Secao6Execicios.c:114:13: warning: unused variable 'valoresPares' [-Wunused-variable]
+  114 |         int valoresPares = 0;
+      |             ^~~~~~~~~~~~
+..\Secao6Execicios.c:113:13: warning: unused variable 'posicao' [-Wunused-variable]
+  113 |         int posicao = 0;
+      |             ^~~~~~~
+gcc -o ProgramasC.exe Secao6Execicios.o 
+Info: Nothing to build for ProgramasC
+Info: Nothing to build for ProgramasC
+16:55:57 **** Incremental Build of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Secao6Execicios.o "..\\Secao6Execicios.c" 
+..\Secao6Execicios.c: In function 'LerEColocarZeroNosNegativos':
+..\Secao6Execicios.c:114:13: warning: unused variable 'valoresPares' [-Wunused-variable]
+  114 |         int valoresPares = 0;
+      |             ^~~~~~~~~~~~
+..\Secao6Execicios.c:113:13: warning: unused variable 'posicao' [-Wunused-variable]
+  113 |         int posicao = 0;
+      |             ^~~~~~~
+gcc -o ProgramasC.exe Secao6Execicios.o 
+16:56:17 **** Incremental Build of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Secao6Execicios.o "..\\Secao6Execicios.c" 
+..\Secao6Execicios.c: In function 'LerEColocarZeroNosNegativos':
+..\Secao6Execicios.c:114:13: warning: unused variable 'valoresPares' [-Wunused-variable]
+  114 |         int valoresPares = 0;
+      |             ^~~~~~~~~~~~
+..\Secao6Execicios.c:113:13: warning: unused variable 'posicao' [-Wunused-variable]
+  113 |         int posicao = 0;
+      |             ^~~~~~~
+gcc -o ProgramasC.exe Secao6Execicios.o 
+16:57:21 **** Incremental Build of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Secao6Execicios.o "..\\Secao6Execicios.c" 
+..\Secao6Execicios.c: In function 'LerEColocarZeroNosNegativos':
+..\Secao6Execicios.c:114:13: warning: unused variable 'valoresPares' [-Wunused-variable]
+  114 |         int valoresPares = 0;
+      |             ^~~~~~~~~~~~
+..\Secao6Execicios.c:113:13: warning: unused variable 'posicao' [-Wunused-variable]
+  113 |         int posicao = 0;
+      |             ^~~~~~~
+gcc -o ProgramasC.exe Secao6Execicios.o 
+16:57:44 **** Incremental Build of configuration Debug for project ProgramasC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Secao6Execicios.o "..\\Secao6Execicios.c" 
+..\Secao6Execicios.c: In function 'LerEColocarZeroNosNegativos':
+..\Secao6Execicios.c:114:13: warning: unused variable 'valoresPares' [-Wunused-variable]
+  114 |         int valoresPares = 0;
+      |             ^~~~~~~~~~~~
+..\Secao6Execicios.c:113:13: warning: unused variable 'posicao' [-Wunused-variable]
+  113 |         int posicao = 0;
+      |             ^~~~~~~
+gcc -o ProgramasC.exe Secao6Execicios.o 
