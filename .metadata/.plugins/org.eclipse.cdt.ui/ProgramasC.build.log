@@ -1,14 +1,7 @@
-16:57:44 **** Incremental Build of configuration Debug for project ProgramasC ****
+18:56:35 **** Incremental Build of configuration Debug for project ProgramasC ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Secao6Execicios.o "..\\Secao6Execicios.c" 
-..\Secao6Execicios.c: In function 'LerEColocarZeroNosNegativos':
-..\Secao6Execicios.c:114:13: warning: unused variable 'valoresPares' [-Wunused-variable]
-  114 |         int valoresPares = 0;
-      |             ^~~~~~~~~~~~
-..\Secao6Execicios.c:113:13: warning: unused variable 'posicao' [-Wunused-variable]
-  113 |         int posicao = 0;
-      |             ^~~~~~~
-gcc -o ProgramasC.exe Secao6Execicios.o 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Secao8Execicios.o "..\\Secao8Execicios.c" 
+gcc -o ProgramasC.exe Secao8Execicios.o 
 
-16:57:44 Build Finished. 0 errors, 2 warnings. (took 427ms)
+18:56:36 Build Finished. 0 errors, 0 warnings. (took 359ms)
 
